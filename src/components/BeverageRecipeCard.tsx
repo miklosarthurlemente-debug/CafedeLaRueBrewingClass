@@ -1,0 +1,3 @@
+import {asset} from '../data/course';
+import type {Recipe} from '../types/course';
+export function BeverageRecipeCard({recipe:r}:{recipe:Recipe}){return <div className="recipe-layout"><img className="recipe-photo" src={asset(r.image)} alt={r.name}/><div><span className="eyebrow">THE COURSE RECIPE · SLIDE {r.source}</span><h3>{r.name}</h3><div className="recipe-facts"><div><span>CUP SIZE</span><strong>{r.cup}</strong></div><div><span>ESPRESSO</span><strong>{r.espresso}</strong></div><div><span>MILK / WATER</span><strong>{r.liquid}</strong></div><div><span>ADDITIONS</span><strong>{r.extra}</strong></div></div><p className="preparation"><strong>Preparation</strong>{r.notes}</p><p className="source-note">{r.difference}</p></div></div>}

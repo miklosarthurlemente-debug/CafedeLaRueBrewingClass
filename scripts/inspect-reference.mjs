@@ -1,0 +1,7 @@
+import {chromium} from '@playwright/test';
+import http from 'node:http';
+import {readFile,mkdir} from 'node:fs/promises';
+const video=await readFile('reference landing page.mp4');
+const server=http.createServer((req,res)=>{res.writeHead(200,{'Content-Type':'video/mp4','Content-Length':video.length});res.end(video)}).listen(4191,'127.0.0.1');
+const browser=await chromium.launch({executablePath:'C:\\Users\\slowk\\OneDrive\\Desktop\\New folder\\reconstruction\\node_modules\\.remotion\\chrome-headless-shell\\win64\\chrome-headless-shell-win64\\chrome-headless-shell.exe'});
+try{const page=await browser.newPage();await page.goto('http://127.0.0.1:4191/');await page.waitForFunction(()=>document.querySelector('video')?.readyState>=2);const meta=await page.locator('video').evaluate(v=>({duration:v.duration,width:v.videoWidth,height:v.videoHeight}));console.log(meta);await mkdir('source/reference',{recursive:true});for(const t of [0,meta.duration*.25,meta.duration*.5,meta.duration*.75,meta.duration-.2]){const data=await page.locator('video').evaluate(async(v,t)=>{v.pause();v.currentTime=t;await new Promise(r=>v.addEventListener('seeked',r,{once:true}));const c=document.createElement('canvas');c.width=v.videoWidth;c.height=v.videoHeight;c.getContext('2d').drawImage(v,0,0);return c.toDataURL('image/png').split(',')[1]},t||.01);await import('node:fs/promises').then(fs=>fs.writeFile(`source/reference/frame-${Math.round(t*10)}.png`,Buffer.from(data,'base64')))}}finally{await browser.close();server.close()}

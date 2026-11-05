@@ -1,0 +1,45 @@
+[
+  {
+    "path": "public/images/image24.png",
+    "sha256": "f20b0107bebc2751637e5ffc19314326084b97444fc71a7c820a31d2f68e3ff7",
+    "parts": [
+      "asset-parts/image24.png.000.base64",
+      "asset-parts/image24.png.001.base64",
+      "asset-parts/image24.png.002.base64",
+      "asset-parts/image24.png.003.base64",
+      "asset-parts/image24.png.004.base64",
+      "asset-parts/image24.png.005.base64",
+      "asset-parts/image24.png.006.base64",
+      "asset-parts/image24.png.007.base64",
+      "asset-parts/image24.png.008.base64",
+      "asset-parts/image24.png.009.base64",
+      "asset-parts/image24.png.010.base64",
+      "asset-parts/image24.png.011.base64",
+      "asset-parts/image24.png.012.base64",
+      "asset-parts/image24.png.013.base64",
+      "asset-parts/image24.png.014.base64",
+      "asset-parts/image24.png.015.base64",
+      "asset-parts/image24.png.016.base64",
+      "asset-parts/image24.png.017.base64",
+      "asset-parts/image24.png.018.base64",
+      "asset-parts/image24.png.019.base64"
+    ]
+  },
+  {
+    "path": "public/images/image34.png",
+    "sha256": "141b7c7fc78ec1ce401e7832fabc1b50982a25e50187d69fc60c25fe8c50fa00",
+    "parts": [
+      "asset-parts/image34.png.000.base64",
+      "asset-parts/image34.png.001.base64",
+      "asset-parts/image34.png.002.base64",
+      "asset-parts/image34.png.003.base64",
+      "asset-parts/image34.png.004.base64",
+      "asset-parts/image34.png.005.base64",
+      "asset-parts/image34.png.006.base64",
+      "asset-parts/image34.png.007.base64",
+      "asset-parts/image34.png.008.base64",
+      "asset-parts/image34.png.009.base64",
+      "asset-parts/image34.png.010.base64"
+    ]
+  }
+]

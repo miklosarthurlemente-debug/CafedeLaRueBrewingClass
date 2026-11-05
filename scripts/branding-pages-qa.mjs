@@ -1,0 +1,21 @@
+import {chromium} from '@playwright/test';
+import http from 'node:http';
+import {readFile,stat,writeFile} from 'node:fs/promises';
+import {resolve,extname} from 'node:path';
+import assert from 'node:assert/strict';
+const root=resolve('dist');const prefix='/student-course/';
+const mime={'.html':'text/html','.css':'text/css','.js':'text/javascript','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.woff':'font/woff','.woff2':'font/woff2'};
+const server=http.createServer(async(req,res)=>{try{const url=new URL(req.url,'http://127.0.0.1');if(!url.pathname.startsWith(prefix)){res.writeHead(404);res.end();return}const path=resolve(root,url.pathname.slice(prefix.length)||'index.html');if(!path.startsWith(root)||!(await stat(path)).isFile())throw Error();res.writeHead(200,{'Content-Type':mime[extname(path)]||'application/octet-stream'});res.end(await readFile(path))}catch{res.writeHead(404);res.end()}}).listen(4193,'127.0.0.1');
+const browser=await chromium.launch({executablePath:process.env.BARISTA_CHROMIUM_PATH||'C:\\Users\\slowk\\OneDrive\\Desktop\\New folder\\reconstruction\\node_modules\\.remotion\\chrome-headless-shell\\win64\\chrome-headless-shell-win64\\chrome-headless-shell.exe'});
+const context=await browser.newContext();const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+try{
+ await page.goto('http://127.0.0.1:4193/student-course/#presentation');await page.getByRole('heading',{name:'EXPLORE THE COFFEE.'}).waitFor();assert.ok(page.url().endsWith('#landing'));
+ assert.equal(await page.getByRole('button',{name:'THE ACADEMY',exact:true}).count(),0);assert.equal(await page.getByRole('button',{name:'ENTER THE ACADEMY',exact:true}).count(),0);assert.equal(await page.getByRole('img',{name:'Cafe de la Rue logo'}).count(),1);
+ await page.getByRole('img',{name:'Cafe de la Rue logo'}).evaluate(i=>i.decode());
+ for(const width of [1366,390]){await page.setViewportSize({width,height:844});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:`source/qa/branding-landing-${width}.png`,fullPage:true})}
+ await page.getByRole('button',{name:'Start Course',exact:true}).click();await page.locator('.module-card').first().waitFor();assert.equal(await page.locator('.floating-label').count(),0);assert.equal(await page.getByText('your coffee journey starts here',{exact:false}).count(),0);assert.equal(await page.getByText('BARISTA ACADEMY',{exact:true}).count(),0);
+ await page.getByRole('button',{name:'Launch Presentation',exact:true}).click();await page.getByRole('heading',{name:'Miklos.'}).waitFor();await page.getByRole('button',{name:'LET’S BEGIN',exact:true}).click();await page.locator('.slide-canvas').waitFor();await page.getByRole('button',{name:'Next',exact:true}).focus();await page.keyboard.press('End');await page.getByRole('button',{name:'Finish',exact:true}).click();await page.getByRole('heading',{name:'Thank You.'}).waitFor();const logo=page.locator('.completion .course-logo');await logo.evaluate(i=>i.decode());assert.ok(await logo.evaluate(i=>i.naturalWidth>0));await page.screenshot({path:'source/qa/branding-thank-you.png',fullPage:true});
+ await page.reload();await page.getByRole('heading',{name:'EXPLORE THE COFFEE.'}).waitFor();
+ await page.evaluate(async()=>navigator.serviceWorker.ready);await context.setOffline(true);await page.reload();await page.getByRole('heading',{name:'EXPLORE THE COFFEE.'}).waitFor();await page.getByRole('img',{name:'Cafe de la Rue logo'}).evaluate(i=>i.decode());await page.getByRole('button',{name:'Start Course',exact:true}).click();await page.locator('.module-card').first().waitFor();assert.equal(await page.locator('.module-card').count(),8);
+ assert.deepEqual(errors,[]);const result={passed:true,checks:['provided logo in header and completion','Start Course label','removed academy link and floating promo','fresh loads and reloads start on landing','mobile and desktop overflow','GitHub Pages repository subpath','offline reload, logo and course'],errors};await writeFile('source/qa/branding-pages-results.json',JSON.stringify(result,null,2));console.log(result);
+}finally{await browser.close();await new Promise(r=>server.close(r))}
