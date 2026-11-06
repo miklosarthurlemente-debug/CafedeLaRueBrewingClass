@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "node scripts/materialize-assets.mjs && tsc -b && vite build && node scripts/build-sw.mjs",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "node scripts/browser-check.mjs"
+    "test": "node scripts/manual-course-qa.mjs"
   },
   "dependencies": {
     "react": "^19.0.0",

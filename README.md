@@ -1,4 +1,10 @@
-# Cafe de la Rue — Barista Academy
+## Active PDF course
+
+The active lessons now follow the uploaded 36-page student training manual: seven modules, 127 interactive slides, 81 practice prompts and 16 sample hot and iced recipes. The PDF replaces the earlier PowerPoint as the instructional source. View Manual and Download PDF links are provided after the course grid, at the end of the last module, on the final presentation slide and on the Thank You screen. The unmodified PDF is bundled in public/manuals and precached for offline use.
+
+Edit src/data/manualModules.json and src/data/manualRecipes.json to change the active lessons. src/data/modules.ts and recipes.ts provide typed exports of those JSON files. Source numbers now identify PDF pages, not PowerPoint slides. The optional scripts/import-manual.py regenerates the lesson data with pypdf. See INSTRUCTOR_REVIEW.md for source scope and missing appendices.
+
+# Cafe de la Rue — Basic Barista Training Course
 
 The course is branded **Basic Barista Training Course**. Header and completion logos use the supplied `Logo.png` unchanged. Each new browser load, reload, and offline-launcher visit starts on the landing page; **Start Course** opens the course dashboard. Internal lesson navigation continues to work during the visit. The former floating “From bean to cup” promotional box has been removed.
 
@@ -44,7 +50,7 @@ The preview normally runs at http://127.0.0.1:4173. This workspace also includes
 
 ## Teach with the app
 
-- Dashboard: browse eight modules; Explore Lesson opens a module overview. Select any lesson slide to present it.
+- Dashboard: browse seven modules; Explore Lesson opens a module overview. Select any lesson slide to present it.
 - Presentation Mode resumes the last slide stored in this browser. Starting a specific lesson opens its selected slide.
 - Next / Previous and the sidebar support unrestricted navigation. Click a module heading to expand or collapse its slide list.
 - Arrow Right / Space advances, Arrow Left goes back, Home jumps to the first slide, End to the last. Shortcuts ignore inputs, selects and editable text. Space activates a focused button normally.
@@ -57,23 +63,15 @@ The preview normally runs at http://127.0.0.1:4173. This workspace also includes
 
 ## Content and source fidelity
 
-The supplied `Basic Barista Traincing Course PPT - Cafe dela Rue.pptx` is unchanged. Instructional material is reorganized into **8 modules and 29 interactive slides**. Source slide numbers are shown on every slide. Recipes use the source cup sizes, quantities and preparation order; missing quantities and orders remain explicitly unspecified.
+The supplied 36-page PDF is the current source of truth. Seven modules cover fundamentals; beans, origins and roasting; equipment; espresso calibration; milk; 16 hot and iced recipes; and operations. The app preserves all core lessons and practice prompts, with PDF page references on each slide. Recipe measurements, preparation, quality standards and mistakes come from pp. 18–34. Ingredients and preparation/service are split into separate classroom slides for legibility.
 
-Edit these files:
+Edit src/data/manualModules.json, src/data/manualRecipes.json, and src/data/references.ts. The modules.ts and recipes.ts files export typed JSON data. The optional scripts/import-manual.py uses pypdf to regenerate the lesson data from the PDF.
 
-- `src/data/modules.ts`: module metadata, lesson sequence, slide content, source numbers and instructor notes.
-- `src/data/recipes.ts`: all eight beverage recipes, amounts, additions and preparation notes.
-- `src/data/references.ts`: bean descriptions, equipment, brewing references and espresso yields.
-- `src/types/course.ts`: typed module, slide, fact and recipe structures.
-- `src/index.css`: brand tokens and responsive layout. The active palette is sage `#658861`, sand `#E5C192`, taupe `#7A6A54` and ivory `#FDFAF3`.
+The unmodified PDF is stored in public/manuals/Cafe_de_La_Rue_Basic_Barista_Training_Manual_36_pages.pdf. ManualLinks.tsx supplies local View Manual and Download PDF anchors. All photographs and illustrations retain their original colors and source file quality. Existing course images are supporting illustrations; no iced-drink photographs or missing manual appendices have been invented. Original PowerPoint text and extracted source media remain in the ignored source archive for reference only.
 
-The original deck's font/color reference is slide 40. DM Serif Display and Lato ship locally through Fontsource, with Georgia and Arial fallbacks. No Google Fonts request occurs at runtime.
+The UI palette remains sage #658861, sand #E5C192, taupe #7A6A54 and ivory #FDFAF3. DM Serif Display and Lato are bundled locally through Fontsource, with Georgia and Arial fallbacks. The supplied PNG logo is unchanged and has no square backdrop.
 
-Assets are served from `public/images` in their original PNG/JPG formats. `src/data/imageAssets.ts` maps image keys to the original filenames. Replace a file with the same name or update that mapping when changing an image. Exact copies of the originals are also preserved in `source/extracted-images`. Extracted text is in `source/slides.json`, and image-to-slide mapping is in `source/assets.json`. Source screenshots with embedded text are reference illustrations, not full-slide replacements.
-
-Blank/decorative dividers and repeated headings were consolidated. Template examples, promotional resources and unrelated graphics from slides 41–61 are excluded. Slide 40 supplies only font/color metadata. Slide 24 contains only a milk-steaming heading; slide 25 contains a demonstration photograph. Added steaming steps, sensory prompts, equipment explanations and recap guidance are labeled **Added teaching guidance**. There is no invented source transcript or temperature target.
-
-See [INSTRUCTOR_REVIEW.md](INSTRUCTOR_REVIEW.md) before classroom use. The source includes unverified historical, statistical and health claims. The adaptation flags them rather than replacing them with unreferenced claims. Extracted media retain the source deck's rights status; confirm permission before public redistribution. No public distribution license is inferred from possession of the deck.
+See INSTRUCTOR_REVIEW.md for the source scope, sample-recipe caveats and contents entries missing from the supplied PDF.
 
 ## Offline operation
 
@@ -164,7 +162,7 @@ Do not upload the PowerPoint, source image archive, node_modules or QA files as 
 
 ## Verification
 
-`npm run build` checks TypeScript, bundles the production app and generates the offline manifest. `node scripts/browser-check.mjs` runs the classroom navigation checks in Playwright, using a local production preview. Set BARISTA_CHROMIUM_PATH to a Chromium executable on another machine, or install Playwright Chromium with npx playwright install chromium. Run node scripts/layout-check.mjs for projector, tablet and mobile checks. The browser must support service workers and fullscreen. QA screenshots and the final results are saved in `source/qa/`.
+`npm run build` checks TypeScript, bundles the production app and generates the offline manifest. `node scripts/manual-course-qa.mjs` runs the classroom navigation checks in Playwright, using a local production preview. Set BARISTA_CHROMIUM_PATH to a Chromium executable on another machine, or install Playwright Chromium with npx playwright install chromium. Run node scripts/layout-check.mjs for projector, tablet and mobile checks. The browser must support service workers and fullscreen. QA screenshots and the final results are saved in `source/qa/`.
 
 ## Known limits
 

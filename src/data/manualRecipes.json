@@ -1,0 +1,480 @@
+[
+  {
+    "id": "manual-espresso",
+    "name": "Espresso",
+    "cup": "90 mL demitasse",
+    "espresso": "36 g",
+    "liquid": "None",
+    "extra": "None",
+    "notes": "Dose, distribute, tamp, extract to 36 g; serve immediately.",
+    "difference": "Concentrated espresso",
+    "source": 19,
+    "temperature": "HOT",
+    "ingredients": [
+      {
+        "label": "Ground coffee",
+        "text": "18 g"
+      },
+      {
+        "label": "Espresso yield",
+        "text": "36 g"
+      }
+    ],
+    "serving": "Use a clean 90 ml demitasse; verify order and hand off promptly.",
+    "quality": "Balanced aroma, pleasant body, clean cup.",
+    "mistakes": "Wrong yield; uneven puck.",
+    "image": "image37"
+  },
+  {
+    "id": "manual-americano",
+    "name": "Americano",
+    "cup": "240 mL cup",
+    "espresso": "36 g",
+    "liquid": "150 mL hot water",
+    "extra": "None",
+    "notes": "Add hot water to cup; pour espresso; stir if requested.",
+    "difference": "Espresso diluted with hot water",
+    "source": 20,
+    "temperature": "HOT",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Hot water",
+        "text": "150 mL"
+      }
+    ],
+    "serving": "Use a clean 240 ml cup; verify order and hand off promptly.",
+    "quality": "Balanced strength, comfortably hot.",
+    "mistakes": "Excessive water; stale shot.",
+    "image": "image26"
+  },
+  {
+    "id": "manual-cappuccino",
+    "name": "Cappuccino",
+    "cup": "180 mL cup",
+    "espresso": "36 g",
+    "liquid": "120 mL steamed milk including foam",
+    "extra": "None",
+    "notes": "Extract espresso; texture milk with more foam than latte; pour promptly.",
+    "difference": "Espresso with textured milk and foam",
+    "source": 21,
+    "temperature": "HOT",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Steamed milk including foam",
+        "text": "120 mL"
+      }
+    ],
+    "serving": "Use a clean 180 ml cup; verify order and hand off promptly.",
+    "quality": "Velvety foam, integrated coffee taste.",
+    "mistakes": "Dry stiff foam; overheating.",
+    "image": "image29"
+  },
+  {
+    "id": "manual-caf-latte",
+    "name": "Café Latte",
+    "cup": "300 mL cup",
+    "espresso": "36 g",
+    "liquid": "220 mL steamed milk",
+    "extra": "None",
+    "notes": "Extract espresso; steam glossy microfoam; pour smoothly.",
+    "difference": "Espresso with silky steamed milk",
+    "source": 22,
+    "temperature": "HOT",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Steamed milk",
+        "text": "220 mL"
+      }
+    ],
+    "serving": "Use a clean 300 ml cup; verify order and hand off promptly.",
+    "quality": "Silky surface, balanced milk coffee flavor.",
+    "mistakes": "Large bubbles; weak coffee balance.",
+    "image": "image28"
+  },
+  {
+    "id": "manual-flat-white",
+    "name": "Flat White",
+    "cup": "180 mL cup",
+    "espresso": "36 g",
+    "liquid": "130 mL steamed milk",
+    "extra": "None",
+    "notes": "Extract espresso; steam fine microfoam; pour with minimal thick foam.",
+    "difference": "Espresso with a thinner layer of microfoam",
+    "source": 23,
+    "temperature": "HOT",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Steamed milk",
+        "text": "130 mL"
+      }
+    ],
+    "serving": "Use a clean 180 ml cup; verify order and hand off promptly.",
+    "quality": "Smooth, coffee forward, glossy.",
+    "mistakes": "Cappuccino style thick foam.",
+    "image": "image27"
+  },
+  {
+    "id": "manual-mocha",
+    "name": "Mocha",
+    "cup": "300 mL cup",
+    "espresso": "36 g",
+    "liquid": "200 mL steamed milk",
+    "extra": "25 g chocolate sauce",
+    "notes": "Mix chocolate sauce with espresso; add steamed milk; serve.",
+    "difference": "Chocolate flavored espresso and milk",
+    "source": 24,
+    "temperature": "HOT",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Chocolate sauce",
+        "text": "25 g"
+      },
+      {
+        "label": "Steamed milk",
+        "text": "200 mL"
+      }
+    ],
+    "serving": "Use a clean 300 ml cup; verify order and hand off promptly.",
+    "quality": "Fully dissolved chocolate, no separation.",
+    "mistakes": "Sauce unmixed; too sweet.",
+    "image": "image30"
+  },
+  {
+    "id": "manual-caramel-latte",
+    "name": "Caramel Latte",
+    "cup": "300 mL cup",
+    "espresso": "36 g",
+    "liquid": "210 mL steamed milk",
+    "extra": "20 mL caramel syrup",
+    "notes": "Mix syrup and espresso; add glossy steamed milk.",
+    "difference": "Latte sweetened with caramel",
+    "source": 25,
+    "temperature": "HOT",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Caramel syrup",
+        "text": "20 mL"
+      },
+      {
+        "label": "Steamed milk",
+        "text": "210 mL"
+      }
+    ],
+    "serving": "Use a clean 300 ml cup; verify order and hand off promptly.",
+    "quality": "Even caramel flavor, silky texture.",
+    "mistakes": "Inaccurate syrup; coarse foam."
+  },
+  {
+    "id": "manual-spanish-latte",
+    "name": "Spanish Latte",
+    "cup": "300 mL cup",
+    "espresso": "36 g",
+    "liquid": "190 mL steamed milk",
+    "extra": "30 g sweetened condensed milk",
+    "notes": "Blend condensed milk with espresso; add steamed milk; stir.",
+    "difference": "Sweetened milk based espresso beverage",
+    "source": 26,
+    "temperature": "HOT",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Sweetened condensed milk",
+        "text": "30 g"
+      },
+      {
+        "label": "Steamed milk",
+        "text": "190 mL"
+      }
+    ],
+    "serving": "Use a clean 300 ml cup; verify order and hand off promptly.",
+    "quality": "Smooth sweetness, well integrated.",
+    "mistakes": "Condensed milk settled at base."
+  },
+  {
+    "id": "manual-iced-americano",
+    "name": "Iced Americano",
+    "cup": "470 mL cup",
+    "espresso": "36 g",
+    "liquid": "180 mL cold water",
+    "extra": "160 g ice",
+    "notes": "Add water and ice; extract espresso separately; add and serve.",
+    "difference": "Espresso over cold water and ice",
+    "source": 27,
+    "temperature": "ICED",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Cold water",
+        "text": "180 mL"
+      },
+      {
+        "label": "Ice",
+        "text": "160 g"
+      }
+    ],
+    "serving": "Use a clean 470 ml cup; verify order and hand off promptly.",
+    "quality": "Refreshing, no excessive dilution.",
+    "mistakes": "Too little ice; poor strength."
+  },
+  {
+    "id": "manual-iced-latte",
+    "name": "Iced Latte",
+    "cup": "470 mL cup",
+    "espresso": "36 g",
+    "liquid": "220 mL cold milk",
+    "extra": "150 g ice",
+    "notes": "Add milk and ice; pour espresso; stir before serving if needed.",
+    "difference": "Espresso, chilled milk, and ice",
+    "source": 28,
+    "temperature": "ICED",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Cold milk",
+        "text": "220 mL"
+      },
+      {
+        "label": "Ice",
+        "text": "150 g"
+      }
+    ],
+    "serving": "Use a clean 470 ml cup; verify order and hand off promptly.",
+    "quality": "Cold, balanced coffee and milk.",
+    "mistakes": "Wrong milk measure; warm service."
+  },
+  {
+    "id": "manual-iced-caramel-macchiato",
+    "name": "Iced Caramel Macchiato",
+    "cup": "470 mL cup",
+    "espresso": "36 g",
+    "liquid": "200 mL cold milk",
+    "extra": "15 mL vanilla syrup; 15 g caramel sauce; 150 g ice",
+    "notes": "Mix vanilla and milk; add ice; layer espresso; finish with caramel.",
+    "difference": "Vanilla milk with espresso and caramel finish",
+    "source": 29,
+    "temperature": "ICED",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Vanilla syrup",
+        "text": "15 mL"
+      },
+      {
+        "label": "Cold milk",
+        "text": "200 mL"
+      },
+      {
+        "label": "Caramel sauce",
+        "text": "15 g"
+      },
+      {
+        "label": "Ice",
+        "text": "150 g"
+      }
+    ],
+    "serving": "Use a clean 470 ml cup; verify order and hand off promptly.",
+    "quality": "Distinct layers before stirring, balanced sweetness.",
+    "mistakes": "Heavy sauce; incorrect order."
+  },
+  {
+    "id": "manual-iced-spanish-latte",
+    "name": "Iced Spanish Latte",
+    "cup": "470 mL cup",
+    "espresso": "36 g",
+    "liquid": "190 mL cold milk",
+    "extra": "35 g condensed milk; 150 g ice",
+    "notes": "Dissolve condensed milk in espresso; combine with milk and ice.",
+    "difference": "Chilled espresso with sweetened milk",
+    "source": 30,
+    "temperature": "ICED",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Condensed milk",
+        "text": "35 g"
+      },
+      {
+        "label": "Cold milk",
+        "text": "190 mL"
+      },
+      {
+        "label": "Ice",
+        "text": "150 g"
+      }
+    ],
+    "serving": "Use a clean 470 ml cup; verify order and hand off promptly.",
+    "quality": "No undissolved condensed milk.",
+    "mistakes": "Sweetener stuck to cup bottom."
+  },
+  {
+    "id": "manual-iced-mocha",
+    "name": "Iced Mocha",
+    "cup": "470 mL cup",
+    "espresso": "36 g",
+    "liquid": "200 mL cold milk",
+    "extra": "30 g chocolate sauce; 150 g ice",
+    "notes": "Blend sauce with warm espresso; add cold milk and ice.",
+    "difference": "Cold chocolate espresso and milk",
+    "source": 31,
+    "temperature": "ICED",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Chocolate sauce",
+        "text": "30 g"
+      },
+      {
+        "label": "Cold milk",
+        "text": "200 mL"
+      },
+      {
+        "label": "Ice",
+        "text": "150 g"
+      }
+    ],
+    "serving": "Use a clean 470 ml cup; verify order and hand off promptly.",
+    "quality": "Chocolate evenly distributed.",
+    "mistakes": "Chocolate clumps."
+  },
+  {
+    "id": "manual-iced-vanilla-latte",
+    "name": "Iced Vanilla Latte",
+    "cup": "470 mL cup",
+    "espresso": "36 g",
+    "liquid": "210 mL cold milk",
+    "extra": "20 mL vanilla syrup; 150 g ice",
+    "notes": "Combine syrup and milk; add ice and espresso; stir.",
+    "difference": "Iced latte with vanilla",
+    "source": 32,
+    "temperature": "ICED",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Vanilla syrup",
+        "text": "20 mL"
+      },
+      {
+        "label": "Cold milk",
+        "text": "210 mL"
+      },
+      {
+        "label": "Ice",
+        "text": "150 g"
+      }
+    ],
+    "serving": "Use a clean 470 ml cup; verify order and hand off promptly.",
+    "quality": "Even sweetness, cold service.",
+    "mistakes": "Unmeasured syrup."
+  },
+  {
+    "id": "manual-iced-hazelnut-latte",
+    "name": "Iced Hazelnut Latte",
+    "cup": "470 mL cup",
+    "espresso": "36 g",
+    "liquid": "210 mL cold milk",
+    "extra": "20 mL hazelnut syrup; 150 g ice",
+    "notes": "Combine syrup and milk; add ice and espresso; stir.",
+    "difference": "Iced latte with hazelnut flavor",
+    "source": 33,
+    "temperature": "ICED",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "Hazelnut syrup",
+        "text": "20 mL"
+      },
+      {
+        "label": "Cold milk",
+        "text": "210 mL"
+      },
+      {
+        "label": "Ice",
+        "text": "150 g"
+      }
+    ],
+    "serving": "Use a clean 470 ml cup; verify order and hand off promptly.",
+    "quality": "Balanced nutty aroma; allergen label checked.",
+    "mistakes": "Failure to check ingredient allergens."
+  },
+  {
+    "id": "manual-iced-white-chocolate-mocha",
+    "name": "Iced White Chocolate Mocha",
+    "cup": "470 mL cup",
+    "espresso": "36 g",
+    "liquid": "200 mL cold milk",
+    "extra": "30 g white chocolate sauce; 150 g ice",
+    "notes": "Mix sauce into warm espresso; add milk and ice; stir.",
+    "difference": "White chocolate flavored iced espresso milk",
+    "source": 34,
+    "temperature": "ICED",
+    "ingredients": [
+      {
+        "label": "Espresso",
+        "text": "36 g"
+      },
+      {
+        "label": "White chocolate sauce",
+        "text": "30 g"
+      },
+      {
+        "label": "Cold milk",
+        "text": "200 mL"
+      },
+      {
+        "label": "Ice",
+        "text": "150 g"
+      }
+    ],
+    "serving": "Use a clean 470 ml cup; verify order and hand off promptly.",
+    "quality": "Smooth sauce dispersion, cold finish.",
+    "mistakes": "Sauce not dissolved."
+  }
+]

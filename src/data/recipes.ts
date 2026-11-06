@@ -1,11 +1,3 @@
-import type { Recipe } from '../types/course';
-export const recipes:Recipe[] = [
- {id:'long-black',name:'Long Black',cup:'6 or 8 oz',espresso:'1 shot',liquid:'5 or 7 oz hot water',extra:'None',notes:'Add hot water first, then the espresso.',difference:'The course distinguishes this from Americano by the order of pouring.',image:'image25',source:26},
- {id:'americano',name:'Café Americano',cup:'6 or 8 oz',espresso:'1 shot',liquid:'5 or 7 oz hot water',extra:'None',notes:'Add espresso first, then the hot water.',difference:'Same course quantities as Long Black; the preparation order changes.',image:'image26',source:27},
- {id:'flat-white',name:'Flat White',cup:'4 or 6 oz',espresso:'1 shot',liquid:'3 or 5 oz steamed milk',extra:'A small amount of microfoam',notes:'Combine espresso and steamed milk with less microfoam than a latte.',difference:'Less milk and less microfoam than the course latte.',image:'image27',source:28},
- {id:'latte',name:'Café Latte',cup:'8 or 12 oz',espresso:'1 shot',liquid:'7 or 11 oz steamed milk',extra:'A light layer of foam',notes:'Prepare espresso and add steamed milk. Less foam, more milk.',difference:'More milk and less foam than cappuccino.',image:'image28',source:29},
- {id:'cappuccino',name:'Cappuccino',cup:'5 or 6 oz',espresso:'1 shot',liquid:'4 or 5 oz steamed milk',extra:'More milk foam',notes:'Prepare espresso and add steamed milk with more foam.',difference:'More foam and less milk than the course latte.',image:'image29',source:30},
- {id:'mocha',name:'Café Mocha',cup:'8 or 12 oz',espresso:'1 shot',liquid:'7 or 11 oz steamed milk',extra:'Chocolate fudge or cocoa powder; amount unspecified',notes:'Combine the listed ingredients. The source does not specify a preparation order or chocolate quantity.',difference:'Chocolate distinguishes this from the course latte.',image:'image30',source:31},
- {id:'macchiato',name:'Macchiato',cup:'3 oz',espresso:'1 shot',liquid:'No measured liquid milk',extra:'Milk foam on top; amount unspecified',notes:'Top a shot of espresso with foam.',difference:'An espresso marked with foam, rather than a large milk beverage.',image:'image31',source:32},
- {id:'affogato',name:'Affogato',cup:'8 oz glass',espresso:'1 shot',liquid:'None',extra:'3 scoops vanilla ice cream',notes:'Serve espresso with the ice cream. The source does not specify scoop size or pouring order.',difference:'A coffee dessert with ice cream rather than steamed milk.',image:'image32',source:33}
-];
+import type {Recipe} from '../types/course';
+import manualRecipes from './manualRecipes.json';
+export const recipes=manualRecipes as Recipe[];

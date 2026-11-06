@@ -1,0 +1,3 @@
+import {BookOpen,Download} from 'lucide-react';
+import {manualFilename,manualUrl} from '../data/manual';
+export function ManualLinks({compact=false}:{compact?:boolean}){return <section className={`manual-resource ${compact?'compact':''}`} aria-label="Student training manual"><div><span className="eyebrow">YOUR COURSE COMPANION</span><h3>Basic Barista Training Manual</h3><p>The complete 36-page PDF for class preparation and independent review.</p></div><div className="button-row"><a className="btn" href={manualUrl()} target="_blank" rel="noopener noreferrer"><BookOpen size={18}/>View Manual</a><a className="btn outline" href={manualUrl()} download={manualFilename}><Download size={18}/>Download PDF</a></div></section>}

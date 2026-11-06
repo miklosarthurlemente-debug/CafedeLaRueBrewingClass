@@ -1,0 +1,2577 @@
+[
+  {
+    "id": "manual-fundamentals",
+    "number": "01",
+    "title": "Coffee & Barista Fundamentals",
+    "description": "Build coffee knowledge, professional hygiene, essential skills and a reliable café workflow.",
+    "icon": "coffee",
+    "image": "image4",
+    "slides": [
+      {
+        "id": "manual-welcome",
+        "moduleId": "manual-fundamentals",
+        "title": "Welcome to Cafe de La Rue",
+        "type": "cards",
+        "lead": "Build skills through guided demonstrations, supervised practice and independent review.",
+        "facts": [
+          {
+            "label": "Learn actively",
+            "text": "Read before each demonstration. Record measurements and observations, and practice through repetition."
+          },
+          {
+            "label": "Practice safely",
+            "text": "Ask your trainer before operating unfamiliar equipment and follow equipment-specific instructions."
+          },
+          {
+            "label": "Course scope",
+            "text": "This internal Cafe de La Rue course is not an official TESDA assessment or government-issued qualification. Recipes are illustrative training formulas."
+          }
+        ],
+        "source": [
+          3
+        ]
+      },
+      {
+        "id": "manual-fundamentals-objectives",
+        "moduleId": "manual-fundamentals",
+        "title": "Coffee & Barista Fundamentals",
+        "lead": "Learning objectives from the student training manual.",
+        "type": "cards",
+        "facts": [
+          {
+            "label": "Objective 1",
+            "text": "Describe the coffee journey and Philippine café context."
+          },
+          {
+            "label": "Objective 2",
+            "text": "Recognize barista responsibilities, tools, and terminology."
+          },
+          {
+            "label": "Objective 3",
+            "text": "Demonstrate professional hygiene and basic workflow."
+          }
+        ],
+        "source": [
+          5
+        ]
+      },
+      {
+        "id": "manual-fundamentals-01",
+        "moduleId": "manual-fundamentals",
+        "title": "Introduction to coffee",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Coffee is a brewed beverage made from roasted seeds of fruit produced by Coffea plants. A coffee cherry typically contains two seeds; the flavor of the final cup reflects farming, processing, roasting, grinding, water, and preparation."
+          },
+          {
+            "label": "In practice",
+            "text": "Compare the aroma of whole beans with freshly ground coffee."
+          }
+        ],
+        "source": [
+          5
+        ],
+        "image": "image4"
+      },
+      {
+        "id": "manual-fundamentals-02",
+        "moduleId": "manual-fundamentals",
+        "title": "Brief history",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Coffee cultivation and trade developed over centuries, with roots in northeastern Africa and later widespread cultivation in Yemen and beyond. Coffeehouses became places for conversation and commerce; avoid treating popular origin legends as verified history."
+          },
+          {
+            "label": "In practice",
+            "text": "Discuss how a neighborhood café can serve as a community meeting place."
+          }
+        ],
+        "source": [
+          5
+        ],
+        "image": "image4"
+      },
+      {
+        "id": "manual-fundamentals-03",
+        "moduleId": "manual-fundamentals",
+        "title": "Modern coffee industry",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Coffee moves through producers, processors, exporters, importers, roasters, distributors, and cafés. Specialty coffee places added emphasis on traceability, quality assessment, and brewing consistency, while commercial coffee serves a wide range of customers."
+          },
+          {
+            "label": "In practice",
+            "text": "Trace one bag of coffee backward from café shelf to origin."
+          }
+        ],
+        "source": [
+          5
+        ],
+        "image": "image4"
+      },
+      {
+        "id": "manual-fundamentals-04",
+        "moduleId": "manual-fundamentals",
+        "title": "Philippine coffee culture",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "The Philippines produces several coffee species and has diverse coffee traditions, including brewed coffee, sweetened drinks, and local specialty coffee. Café menus should respect regional preferences while explaining different roast and brewing options."
+          },
+          {
+            "label": "In practice",
+            "text": "Ask a customer whether they prefer bold, sweet, or bright coffee."
+          }
+        ],
+        "source": [
+          5
+        ],
+        "image": "image4"
+      },
+      {
+        "id": "manual-fundamentals-05",
+        "moduleId": "manual-fundamentals",
+        "title": "Barista responsibilities",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Baristas prepare beverages, manage mise en place, handle orders, clean and sanitize work areas, monitor stock, and communicate with guests. Accuracy, reliability, and teamwork matter as much as drink appearance."
+          },
+          {
+            "label": "In practice",
+            "text": "Repeat a sample order before starting preparation."
+          }
+        ],
+        "source": [
+          5
+        ],
+        "image": "image4"
+      },
+      {
+        "id": "manual-fundamentals-06",
+        "moduleId": "manual-fundamentals",
+        "title": "Essential skills",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Core skills include dosing, grinding, extraction, milk texturing, recipe following, sensory evaluation, equipment care, and friendly service. Build consistency before increasing speed."
+          },
+          {
+            "label": "In practice",
+            "text": "Prepare three identical beverages and compare their weights."
+          }
+        ],
+        "source": [
+          5
+        ],
+        "image": "image4"
+      },
+      {
+        "id": "manual-fundamentals-07",
+        "moduleId": "manual-fundamentals",
+        "title": "Coffee terminology",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Dose is dry coffee mass; yield is brewed beverage mass; ratio compares dose to yield; extraction is dissolution of soluble material; body is perceived texture; crema is foam on espresso."
+          },
+          {
+            "label": "In practice",
+            "text": "Explain dose and yield without using jargon."
+          }
+        ],
+        "source": [
+          5,
+          6
+        ],
+        "image": "image4"
+      },
+      {
+        "id": "manual-fundamentals-08",
+        "moduleId": "manual-fundamentals",
+        "title": "Tools and accessories",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Common tools include digital scales, timer, tamper, distribution tool, milk pitcher, thermometer, cleaning brush, knock box, cloths, and filtered water. Use tools appropriate to the machine and basket."
+          },
+          {
+            "label": "In practice",
+            "text": "Identify which tools contact food and require routine cleaning."
+          }
+        ],
+        "source": [
+          6
+        ],
+        "image": "image4"
+      },
+      {
+        "id": "manual-fundamentals-09",
+        "moduleId": "manual-fundamentals",
+        "title": "Grooming and hygiene",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Arrive in clean attire, secure long hair, keep nails short and clean, wash hands correctly, and avoid working with exposed food when ill according to workplace policy. Gloves never replace handwashing."
+          },
+          {
+            "label": "In practice",
+            "text": "Demonstrate proper handwashing before touching service tools."
+          }
+        ],
+        "source": [
+          6
+        ],
+        "image": "image4"
+      },
+      {
+        "id": "manual-fundamentals-10",
+        "moduleId": "manual-fundamentals",
+        "title": "Basic café workflow",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "A standard workflow is receive order, confirm details, prepare station, brew, assemble, verify, serve, and reset. Separate clean and dirty zones to prevent cross contamination."
+          },
+          {
+            "label": "In practice",
+            "text": "Role play an order from greeting to station reset."
+          }
+        ],
+        "source": [
+          6
+        ],
+        "image": "image4"
+      }
+    ]
+  },
+  {
+    "id": "manual-beans",
+    "number": "02",
+    "title": "Beans, Origins & Roasting",
+    "description": "Explore Philippine coffee, processing, roasting, freshness and sensory evaluation.",
+    "icon": "bean",
+    "image": "image8",
+    "slides": [
+      {
+        "id": "manual-beans-objectives",
+        "moduleId": "manual-beans",
+        "title": "Beans, Origins & Roasting",
+        "lead": "Learning objectives from the student training manual.",
+        "type": "cards",
+        "facts": [
+          {
+            "label": "Objective 1",
+            "text": "Compare four coffee species used in Philippine coffee."
+          },
+          {
+            "label": "Objective 2",
+            "text": "Explain three major processing methods and roasting effects."
+          },
+          {
+            "label": "Objective 3",
+            "text": "Describe storage and sensory evaluation."
+          }
+        ],
+        "source": [
+          7
+        ]
+      },
+      {
+        "id": "manual-beans-01",
+        "moduleId": "manual-beans",
+        "title": "Coffee beans",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Coffee beans are seeds inside coffee cherries. Green coffee is dried and prepared for roasting; roasted beans develop new aromas and are ground shortly before brewing for best control."
+          },
+          {
+            "label": "In practice",
+            "text": "Examine green versus roasted coffee samples."
+          }
+        ],
+        "source": [
+          7
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-02",
+        "moduleId": "manual-beans",
+        "title": "Arabica and Robusta",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Arabica often offers delicate acidity and varied aromatics, while Robusta commonly provides greater bitterness, heavier body, and more caffeine by dry weight. Actual flavor depends strongly on quality and processing."
+          },
+          {
+            "label": "In practice",
+            "text": "Taste two labeled samples at the same brew strength."
+          }
+        ],
+        "source": [
+          7
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-03",
+        "moduleId": "manual-beans",
+        "title": "Liberica and Excelsa",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Liberica is known for large beans and distinctive flavor possibilities. Excelsa is commonly classified within Coffea liberica as a variety; naming conventions differ in trade. Both have relevance in Philippine coffee discussions."
+          },
+          {
+            "label": "In practice",
+            "text": "Record sensory differences without ranking species as inherently good or bad."
+          }
+        ],
+        "source": [
+          7
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-04",
+        "moduleId": "manual-beans",
+        "title": "Philippine growing regions",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Coffee is cultivated in regions including Benguet, Batangas, Cavite, Bukidnon, Davao, and Sultan Kudarat. Altitude, climate, farming, and processing influence quality; regional names alone do not guarantee a specific flavor."
+          },
+          {
+            "label": "In practice",
+            "text": "Locate two producing regions on a map and research their harvest practices."
+          }
+        ],
+        "source": [
+          7
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-05",
+        "moduleId": "manual-beans",
+        "title": "Harvesting",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Ripe cherries are harvested by selective picking or stripping. Sorting removes underripe, overripe, and damaged fruit; good harvest handling helps reduce defects."
+          },
+          {
+            "label": "In practice",
+            "text": "Sort a sample set of fruit images or colored tokens by ripeness."
+          }
+        ],
+        "source": [
+          7
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-06",
+        "moduleId": "manual-beans",
+        "title": "Washed processing",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Washed processing removes fruit material before drying, typically using depulping, fermentation or mechanical mucilage removal, washing, and controlled drying. It can emphasize clean flavor separation."
+          },
+          {
+            "label": "In practice",
+            "text": "List the main processing steps in order."
+          }
+        ],
+        "source": [
+          7
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-07",
+        "moduleId": "manual-beans",
+        "title": "Natural and honey processing",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Natural coffee dries with the fruit intact; honey processing removes skin while retaining some mucilage during drying. Both require careful drying and handling to manage defects."
+          },
+          {
+            "label": "In practice",
+            "text": "Compare possible fruit forward aromas without assuming every lot tastes alike."
+          }
+        ],
+        "source": [
+          7
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-08",
+        "moduleId": "manual-beans",
+        "title": "Roasting fundamentals",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Roasting uses heat to drive moisture loss, browning reactions, and aromatic development. Roasters track temperature, time, airflow, and bean appearance; excessive or insufficient development can affect balance."
+          },
+          {
+            "label": "In practice",
+            "text": "Describe how raw and roasted coffee smell different."
+          }
+        ],
+        "source": [
+          8
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-09",
+        "moduleId": "manual-beans",
+        "title": "Roast levels",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Light, medium, and dark are relative descriptions rather than universal temperature standards. Lighter roasts may preserve brighter notes; darker roasts often show stronger roast derived flavors."
+          },
+          {
+            "label": "In practice",
+            "text": "Compare roast appearance and aroma."
+          }
+        ],
+        "source": [
+          8
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-10",
+        "moduleId": "manual-beans",
+        "title": "Roast and flavor",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Roast development changes perceived acidity, sweetness, bitterness, solubility, and body. Brewing adjustments may be needed when switching roast profiles."
+          },
+          {
+            "label": "In practice",
+            "text": "Brew a lighter and darker coffee with identical starting recipes."
+          }
+        ],
+        "source": [
+          8
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-11",
+        "moduleId": "manual-beans",
+        "title": "Freshness and storage",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Store coffee sealed, dry, away from heat, light, and strong odors. Label roast/open dates, rotate stock, and grind near service. Avoid moisture and repeated temperature swings."
+          },
+          {
+            "label": "In practice",
+            "text": "Inspect labels and practice FIFO rotation."
+          }
+        ],
+        "source": [
+          8
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-12",
+        "moduleId": "manual-beans",
+        "title": "Acidity, body, sweetness, aroma",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Acidity is a bright sensory quality, not simply sourness; body is texture; sweetness balances sharpness and bitterness; aroma includes fragrance from dry grounds and brewed coffee."
+          },
+          {
+            "label": "In practice",
+            "text": "Use simple descriptive words rather than unsupported tasting claims."
+          }
+        ],
+        "source": [
+          8
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-13",
+        "moduleId": "manual-beans",
+        "title": "Coffee tasting",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Taste systematically: smell dry grounds, smell brewed coffee, sip at different temperatures, record acidity, sweetness, body, finish, and defects. Cleanse palate and avoid perfume during formal tasting."
+          },
+          {
+            "label": "In practice",
+            "text": "Complete a short sensory score sheet."
+          }
+        ],
+        "source": [
+          8
+        ],
+        "image": "image8"
+      },
+      {
+        "id": "manual-beans-comparison",
+        "moduleId": "manual-beans",
+        "title": "Species & processing comparison",
+        "type": "table",
+        "source": [
+          8
+        ],
+        "table": {
+          "headers": [
+            "Category",
+            "Typical characteristics",
+            "Important qualification"
+          ],
+          "rows": [
+            [
+              "Arabica",
+              "Broad aroma and acidity range",
+              "Quality varies by lot"
+            ],
+            [
+              "Robusta",
+              "Often fuller and more bitter",
+              "High-quality examples can be complex"
+            ],
+            [
+              "Liberica / Excelsa",
+              "Distinctive aromatics",
+              "Trade naming varies"
+            ],
+            [
+              "Washed",
+              "Fruit removed before drying",
+              "Methods vary by producer"
+            ],
+            [
+              "Natural",
+              "Whole fruit dried",
+              "Careful drying essential"
+            ],
+            [
+              "Honey",
+              "Some mucilage retained",
+              "Not flavored with honey"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual-equipment",
+    "number": "03",
+    "title": "Grinders & Espresso Machines",
+    "description": "Understand equipment components, grinder control, cleaning and safe operation.",
+    "icon": "coffee",
+    "image": "image37",
+    "slides": [
+      {
+        "id": "manual-equipment-objectives",
+        "moduleId": "manual-equipment",
+        "title": "Grinders & Espresso Machines",
+        "lead": "Learning objectives from the student training manual.",
+        "type": "cards",
+        "facts": [
+          {
+            "label": "Objective 1",
+            "text": "Identify machine and grinder parts."
+          },
+          {
+            "label": "Objective 2",
+            "text": "Explain grinder adjustments and daily care."
+          },
+          {
+            "label": "Objective 3",
+            "text": "Apply equipment safety practices."
+          }
+        ],
+        "source": [
+          10
+        ]
+      },
+      {
+        "id": "manual-equipment-01",
+        "moduleId": "manual-equipment",
+        "title": "Espresso machines",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Espresso machines force heated water through compacted ground coffee under pressure. Stable temperature, water quality, clean equipment, and consistent puck preparation support repeatable results."
+          },
+          {
+            "label": "In practice",
+            "text": "Identify the brew path from reservoir or water line to cup."
+          }
+        ],
+        "source": [
+          10
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-02",
+        "moduleId": "manual-equipment",
+        "title": "Machine categories",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Manual lever machines require operator control; semi automatic machines let the barista start and stop brewing; automatic volumetric machines can stop at programmed volumes; super automatic units integrate more steps."
+          },
+          {
+            "label": "In practice",
+            "text": "Check which controls your training machine provides."
+          }
+        ],
+        "source": [
+          10
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-03",
+        "moduleId": "manual-equipment",
+        "title": "Components",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Key components may include pump, boiler or thermoblock, heat exchanger, group head, shower screen, portafilter, steam wand, gauges, and drip tray. Designs vary."
+          },
+          {
+            "label": "In practice",
+            "text": "Point to each available component on the training machine."
+          }
+        ],
+        "source": [
+          10
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-04",
+        "moduleId": "manual-equipment",
+        "title": "Group head",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "The group head delivers brew water and holds the portafilter. Keep the gasket and shower screen clean; follow the manufacturer’s guidance for flushing and cleaning."
+          },
+          {
+            "label": "In practice",
+            "text": "Inspect the group head only when safe to do so."
+          }
+        ],
+        "source": [
+          10
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-05",
+        "moduleId": "manual-equipment",
+        "title": "Portafilter",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "A portafilter holds the filter basket and locks into the group. It may have spouts or a bottomless base; use the correct size and handle it carefully when hot."
+          },
+          {
+            "label": "In practice",
+            "text": "Insert and remove an empty portafilter correctly."
+          }
+        ],
+        "source": [
+          10
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-06",
+        "moduleId": "manual-equipment",
+        "title": "Filter baskets",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Baskets differ in size and rated dose. Overfilling can restrict headspace and alter flow; underfilling may make preparation inconsistent. Follow basket specifications."
+          },
+          {
+            "label": "In practice",
+            "text": "Check the rated dose of the installed basket."
+          }
+        ],
+        "source": [
+          10
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-07",
+        "moduleId": "manual-equipment",
+        "title": "Steam wand",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "A steam wand injects steam to heat and texture milk. Purge briefly before and after use as instructed; wipe immediately with a dedicated clean cloth. Beware of burns."
+          },
+          {
+            "label": "In practice",
+            "text": "Practice positioning a cold wand with the machine off."
+          }
+        ],
+        "source": [
+          10,
+          11
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-08",
+        "moduleId": "manual-equipment",
+        "title": "Heating and control",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Boilers, thermoblocks, sensors, and thermostats regulate water and steam temperatures. Allow warm up time and do not open pressurized or electrical housings."
+          },
+          {
+            "label": "In practice",
+            "text": "Record the machine’s ready indicators."
+          }
+        ],
+        "source": [
+          11
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-09",
+        "moduleId": "manual-equipment",
+        "title": "Grinder types",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "On demand grinders dose fresh grounds; hopper grinders store beans above burrs; single dose grinders grind measured portions. Retention and workflow differ."
+          },
+          {
+            "label": "In practice",
+            "text": "Measure grinder output versus input."
+          }
+        ],
+        "source": [
+          11
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-10",
+        "moduleId": "manual-equipment",
+        "title": "Burr versus blade",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Burr grinders use two cutting surfaces with adjustable spacing and typically offer better grind control than blade grinders, which chop inconsistently."
+          },
+          {
+            "label": "In practice",
+            "text": "Compare ground particle consistency visually."
+          }
+        ],
+        "source": [
+          11
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-11",
+        "moduleId": "manual-equipment",
+        "title": "Grind size",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Finer grinds generally slow espresso flow; coarser grinds generally speed it up, with many other variables also influencing extraction. Make small adjustments and observe."
+          },
+          {
+            "label": "In practice",
+            "text": "Change one setting and compare shot time."
+          }
+        ],
+        "source": [
+          11
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-12",
+        "moduleId": "manual-equipment",
+        "title": "Grinder adjustment",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Purge a small amount after changing settings if required, then measure a fresh dose and shot. Record adjustment direction; never force burrs together."
+          },
+          {
+            "label": "In practice",
+            "text": "Write a grinder dial in log."
+          }
+        ],
+        "source": [
+          11
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-13",
+        "moduleId": "manual-equipment",
+        "title": "Accessories",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Scales, tampers, pitchers, brushes, cleaning tablets, and towels each have specific uses. Use approved chemicals and separate cloths for food contact and dirty areas."
+          },
+          {
+            "label": "In practice",
+            "text": "Create a tool storage map."
+          }
+        ],
+        "source": [
+          11
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-14",
+        "moduleId": "manual-equipment",
+        "title": "Cleaning and maintenance",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Brush grounds, clean portafilters and baskets, wipe steam wand, empty trays, and follow manufacturer approved backflush and descaling schedules. Maintenance is not the same as daily cleaning."
+          },
+          {
+            "label": "In practice",
+            "text": "Complete a cleaning checklist under supervision."
+          }
+        ],
+        "source": [
+          11
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-15",
+        "moduleId": "manual-equipment",
+        "title": "Safety",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Hot metal, steam, electricity, pressurized water, wet floors, and moving grinder burrs create hazards. Turn off and isolate equipment before authorized maintenance; report leaks or damaged cords."
+          },
+          {
+            "label": "In practice",
+            "text": "Identify three hazards in the training station."
+          }
+        ],
+        "source": [
+          11
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-equipment-vocabulary",
+        "moduleId": "manual-equipment",
+        "title": "Equipment vocabulary",
+        "type": "table",
+        "source": [
+          12
+        ],
+        "table": {
+          "headers": [
+            "Term",
+            "Function"
+          ],
+          "rows": [
+            [
+              "Group head",
+              "Delivers brew water to coffee puck"
+            ],
+            [
+              "Basket",
+              "Holds ground coffee"
+            ],
+            [
+              "Portafilter",
+              "Secures basket to group"
+            ],
+            [
+              "Burrs",
+              "Grind beans at adjustable spacing"
+            ],
+            [
+              "Steam wand",
+              "Heats and textures milk"
+            ],
+            [
+              "Backflush",
+              "Machine-specific group cleaning procedure"
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "manual-espresso",
+    "number": "04",
+    "title": "Espresso Extraction & Calibration",
+    "description": "Measure dose and yield, dial in by taste, and document repeatable espresso recipes.",
+    "icon": "scale",
+    "image": "image37",
+    "slides": [
+      {
+        "id": "manual-espresso-objectives",
+        "moduleId": "manual-espresso",
+        "title": "Espresso Extraction & Calibration",
+        "lead": "Learning objectives from the student training manual.",
+        "type": "cards",
+        "facts": [
+          {
+            "label": "Objective 1",
+            "text": "Explain dose, yield, ratio, time, and flavor."
+          },
+          {
+            "label": "Objective 2",
+            "text": "Dial in espresso using one variable changes."
+          },
+          {
+            "label": "Objective 3",
+            "text": "Record calibration for consistent service."
+          }
+        ],
+        "source": [
+          13
+        ]
+      },
+      {
+        "id": "manual-espresso-01",
+        "moduleId": "manual-espresso",
+        "title": "Understanding espresso",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Espresso is a concentrated coffee beverage prepared by forcing water through a fine, compacted bed of ground coffee. Quality depends on flavor balance and repeatability, not crema alone."
+          },
+          {
+            "label": "In practice",
+            "text": "Taste a shot before deciding whether it is acceptable."
+          }
+        ],
+        "source": [
+          13
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-02",
+        "moduleId": "manual-espresso",
+        "title": "Dosing",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Dose is the dry coffee mass placed in the basket. Weigh it consistently; a sample 18 g dose works only if basket capacity and coffee allow."
+          },
+          {
+            "label": "In practice",
+            "text": "Dose 18.0 g three times with minimal variation."
+          }
+        ],
+        "source": [
+          13
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-03",
+        "moduleId": "manual-espresso",
+        "title": "Distribution",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Break up clumps and level grounds before tamping to reduce uneven density and channeling. Use a consistent method and avoid losing grounds."
+          },
+          {
+            "label": "In practice",
+            "text": "Compare uneven versus even preparation visually."
+          }
+        ],
+        "source": [
+          13
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-04",
+        "moduleId": "manual-espresso",
+        "title": "Tamping",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Apply firm, level pressure with a properly sized tamper. Repeatability and a level puck matter more than excessive force. Keep wrists in a comfortable position."
+          },
+          {
+            "label": "In practice",
+            "text": "Practice a level tamp with the machine off."
+          }
+        ],
+        "source": [
+          13
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-05",
+        "moduleId": "manual-espresso",
+        "title": "Brew ratios",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Brew ratio is dose to beverage yield by mass. An 18 g dose and 36 g yield equals 1:2; ratios can be adjusted for taste and roast."
+          },
+          {
+            "label": "In practice",
+            "text": "Calculate ratios for 18 g to 27 g and 18 g to 45 g."
+          }
+        ],
+        "source": [
+          13
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-06",
+        "moduleId": "manual-espresso",
+        "title": "Extraction time",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Time is one diagnostic variable, not a universal quality score. A sample 25 to 30 seconds may be a useful starting window depending on when timing begins."
+          },
+          {
+            "label": "In practice",
+            "text": "Use the same timing convention for every test shot."
+          }
+        ],
+        "source": [
+          13
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-07",
+        "moduleId": "manual-espresso",
+        "title": "Espresso yield",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Yield is the beverage mass in the cup, not the liquid volume or water added. Stop brewing at the target weight where possible."
+          },
+          {
+            "label": "In practice",
+            "text": "Use a scale under the cup and record final yield."
+          }
+        ],
+        "source": [
+          13
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-08",
+        "moduleId": "manual-espresso",
+        "title": "Under extraction",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "A shot may taste sharp, sour, thin, or salty when insufficient desirable solubles are extracted; under extraction can have multiple causes."
+          },
+          {
+            "label": "In practice",
+            "text": "Compare a deliberately short yield shot with a baseline."
+          }
+        ],
+        "source": [
+          13,
+          14
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-09",
+        "moduleId": "manual-espresso",
+        "title": "Over extraction",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "A shot may taste harsh, dry, or excessively bitter when extraction is unbalanced. Bitterness can also arise from coffee and roast characteristics."
+          },
+          {
+            "label": "In practice",
+            "text": "Compare a deliberately long yield shot with a baseline."
+          }
+        ],
+        "source": [
+          14
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-10",
+        "moduleId": "manual-espresso",
+        "title": "Calibration",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Calibration is the repeatable process of selecting dose, yield, grind, and technique, then tasting and documenting results. Keep other variables stable while testing."
+          },
+          {
+            "label": "In practice",
+            "text": "Create a baseline recipe and record it."
+          }
+        ],
+        "source": [
+          14
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-11",
+        "moduleId": "manual-espresso",
+        "title": "Dialing in grinder",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Start with a sensible dose and ratio; pull a shot; weigh yield and record time; taste; change grind in small increments; repeat. If time is fast and flavor weak, test finer grind."
+          },
+          {
+            "label": "In practice",
+            "text": "Adjust one variable at a time."
+          }
+        ],
+        "source": [
+          14
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-12",
+        "moduleId": "manual-espresso",
+        "title": "Flavor troubleshooting",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Sour and thin: check dose, yield, and grind; bitter and drying: test coarser grind or shorter yield; uneven or spraying: inspect distribution and tamping. Taste confirms whether a change helped."
+          },
+          {
+            "label": "In practice",
+            "text": "Explain why time alone cannot diagnose a shot."
+          }
+        ],
+        "source": [
+          14
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-13",
+        "moduleId": "manual-espresso",
+        "title": "Quality control",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Check cup cleanliness, dose, yield, time, flavor, and temperature consistency. Retest when beans age, humidity changes, or grinder settings drift."
+          },
+          {
+            "label": "In practice",
+            "text": "Compare opening and midday shots."
+          }
+        ],
+        "source": [
+          14
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-14",
+        "moduleId": "manual-espresso",
+        "title": "Daily calibration",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Warm up equipment, check water and cleanliness, measure baseline, pull two repeatable shots, taste, record recipe, and communicate settings to the next shift."
+          },
+          {
+            "label": "In practice",
+            "text": "Sign a calibration log before service."
+          }
+        ],
+        "source": [
+          14
+        ],
+        "image": "image37"
+      },
+      {
+        "id": "manual-espresso-starting-recipe",
+        "moduleId": "manual-espresso",
+        "title": "A starting recipe, not a fixed standard",
+        "type": "table",
+        "lead": "Adjust to the coffee, grinder, basket, machine, water and taste.",
+        "source": [
+          14,
+          15
+        ],
+        "table": {
+          "headers": [
+            "Parameter",
+            "Training starting value"
+          ],
+          "rows": [
+            [
+              "Dry dose",
+              "18 g"
+            ],
+            [
+              "Beverage yield",
+              "36 g"
+            ],
+            [
+              "Brew ratio",
+              "1:2"
+            ],
+            [
+              "Time",
+              "Approximately 25–30 seconds; use a consistent timing convention"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "manual-espresso-ratio-calculator",
+        "moduleId": "manual-espresso",
+        "title": "Dose to beverage yield",
+        "type": "calculator",
+        "lead": "Apply the manual’s mass-based espresso ratio.",
+        "source": [
+          13,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "id": "manual-milk",
+    "number": "05",
+    "title": "Milk Steaming & Texturing",
+    "description": "Practice aeration, microfoam, temperature control, pouring and safe milk handling.",
+    "icon": "milk",
+    "image": "image24",
+    "slides": [
+      {
+        "id": "manual-milk-objectives",
+        "moduleId": "manual-milk",
+        "title": "Milk Steaming & Texturing",
+        "lead": "Learning objectives from the student training manual.",
+        "type": "cards",
+        "facts": [
+          {
+            "label": "Objective 1",
+            "text": "Explain milk composition and texture."
+          },
+          {
+            "label": "Objective 2",
+            "text": "Steam milk safely to a consistent finish."
+          },
+          {
+            "label": "Objective 3",
+            "text": "Apply correct wand cleaning and waste controls."
+          }
+        ],
+        "source": [
+          16
+        ]
+      },
+      {
+        "id": "manual-milk-01",
+        "moduleId": "manual-milk",
+        "title": "Milk steaming",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Steaming heats milk and introduces controlled air to create a glossy, pourable texture. Correct technique supports sweetness perception, comfort, and milk pouring."
+          },
+          {
+            "label": "In practice",
+            "text": "Observe the change from cold milk to glossy texture."
+          }
+        ],
+        "source": [
+          16
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-02",
+        "moduleId": "manual-milk",
+        "title": "Milk composition",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Milk contains water, proteins, fats, and lactose. Proteins help stabilize foam; fat contributes texture; temperature affects perceived sweetness and foam stability."
+          },
+          {
+            "label": "In practice",
+            "text": "Compare whole and low fat milk textures."
+          }
+        ],
+        "source": [
+          16
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-03",
+        "moduleId": "manual-milk",
+        "title": "Dairy and alternatives",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Plant based drinks behave differently due to protein and fat composition. Use products suitable for steaming and check allergens, labels, and customer preferences."
+          },
+          {
+            "label": "In practice",
+            "text": "Steam one dairy and one plant based option if available."
+          }
+        ],
+        "source": [
+          16
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-04",
+        "moduleId": "manual-milk",
+        "title": "Temperature",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "A common serving target is about 55 to 65°C for dairy milk, depending on recipe and customer preference. Avoid overheating and follow ingredient guidance; use a thermometer while learning."
+          },
+          {
+            "label": "In practice",
+            "text": "Record milk temperature immediately after steaming."
+          }
+        ],
+        "source": [
+          16
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-05",
+        "moduleId": "manual-milk",
+        "title": "Steam wand operation",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Start with cold milk in a clean pitcher, purge the wand safely, position the tip near the surface, introduce air briefly, then submerge slightly to form a whirlpool. Stop before the target temperature is exceeded."
+          },
+          {
+            "label": "In practice",
+            "text": "Demonstrate safe wand handling."
+          }
+        ],
+        "source": [
+          16
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-06",
+        "moduleId": "manual-milk",
+        "title": "Stretching",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Stretching is the early introduction of air. Listen for gentle paper tearing sounds rather than loud splashing; too much air creates coarse foam."
+          },
+          {
+            "label": "In practice",
+            "text": "Compare a short and long stretching phase."
+          }
+        ],
+        "source": [
+          16
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-07",
+        "moduleId": "manual-milk",
+        "title": "Microfoam",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Microfoam consists of fine bubbles evenly incorporated into milk, giving a glossy wet paint appearance. Tap and swirl the pitcher gently to integrate texture."
+          },
+          {
+            "label": "In practice",
+            "text": "Evaluate bubble size and surface shine."
+          }
+        ],
+        "source": [
+          16
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-08",
+        "moduleId": "manual-milk",
+        "title": "Texturing techniques",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Position the wand off center to generate a vortex, keep the tip stable, and adjust depth based on sound and movement. Different machines require different angles."
+          },
+          {
+            "label": "In practice",
+            "text": "Practice with water and a drop of dish soap only for non consumable demonstrations, then clean thoroughly."
+          }
+        ],
+        "source": [
+          16,
+          17
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-09",
+        "moduleId": "manual-milk",
+        "title": "Common mistakes",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Large bubbles often mean excessive air or unstable tip position; flat milk may lack stretching; scorched flavors suggest overheating; separation occurs when milk stands too long."
+          },
+          {
+            "label": "In practice",
+            "text": "Identify corrective actions for three failed pitchers."
+          }
+        ],
+        "source": [
+          17
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-10",
+        "moduleId": "manual-milk",
+        "title": "Milk pouring introduction",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Start with consistent espresso crema and smooth microfoam. Pour from higher to integrate milk, then lower the pitcher close to the surface to draw a simple dot or heart."
+          },
+          {
+            "label": "In practice",
+            "text": "Practice a centered dot before attempting a heart."
+          }
+        ],
+        "source": [
+          17
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-11",
+        "moduleId": "manual-milk",
+        "title": "Safety",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Steam can burn skin. Keep hands clear of the tip, use pitcher handles, avoid overfilling, and never direct steam toward another person."
+          },
+          {
+            "label": "In practice",
+            "text": "Point out the safe hand position."
+          }
+        ],
+        "source": [
+          17
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-12",
+        "moduleId": "manual-milk",
+        "title": "Wand cleaning",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Wipe the wand immediately with a designated clean damp cloth, purge as instructed, and follow the machine’s cleaning schedule. Never leave dried milk residue."
+          },
+          {
+            "label": "In practice",
+            "text": "Perform a supervised post steam cleaning."
+          }
+        ],
+        "source": [
+          17
+        ],
+        "image": "image24"
+      },
+      {
+        "id": "manual-milk-13",
+        "moduleId": "manual-milk",
+        "title": "Waste prevention",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Measure milk based on drink size and pitcher minimums, label open containers, keep chilled ingredients cold, and avoid re steaming leftover milk for customer service."
+          },
+          {
+            "label": "In practice",
+            "text": "Estimate required milk for three orders."
+          }
+        ],
+        "source": [
+          17
+        ],
+        "image": "image24"
+      }
+    ]
+  },
+  {
+    "id": "manual-recipes",
+    "number": "06",
+    "title": "Hot & Iced Coffee Recipes",
+    "description": "Prepare 16 sample training recipes with measured ingredients and service checks.",
+    "icon": "book",
+    "image": "image28",
+    "slides": [
+      {
+        "id": "manual-recipes-guidelines",
+        "moduleId": "manual-recipes",
+        "title": "Sample training formulas",
+        "type": "cards",
+        "lead": "All formulas are illustrative training recipes, not proprietary Cafe de La Rue formulas.",
+        "source": [
+          18
+        ],
+        "facts": [
+          {
+            "label": "Espresso baseline",
+            "text": "18 g coffee to 36 g espresso. All ingredient quantities must be tested against actual equipment, cup capacity, ice displacement and ingredient specifications."
+          },
+          {
+            "label": "Before preparation",
+            "text": "Confirm size, temperature, sweetness, dairy choice and allergens. Measure ingredients using a scale or calibrated measuring tool."
+          },
+          {
+            "label": "Service checks",
+            "text": "Use fresh espresso, clean cups, safe milk handling and clean ice tools. Follow shop-approved service and labeling procedures."
+          }
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-espresso",
+        "moduleId": "manual-recipes",
+        "title": "Espresso",
+        "type": "recipe",
+        "recipeId": "manual-espresso",
+        "source": [
+          19
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-espresso-service",
+        "moduleId": "manual-recipes",
+        "title": "Espresso: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 90 ml demitasse; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Dose, distribute, tamp, extract to 36 g; serve immediately."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Balanced aroma, pleasant body, clean cup."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Wrong yield; uneven puck."
+          }
+        ],
+        "source": [
+          19
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-americano",
+        "moduleId": "manual-recipes",
+        "title": "Americano",
+        "type": "recipe",
+        "recipeId": "manual-americano",
+        "source": [
+          20
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-americano-service",
+        "moduleId": "manual-recipes",
+        "title": "Americano: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 240 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Add hot water to cup; pour espresso; stir if requested."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Balanced strength, comfortably hot."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Excessive water; stale shot."
+          }
+        ],
+        "source": [
+          20
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-cappuccino",
+        "moduleId": "manual-recipes",
+        "title": "Cappuccino",
+        "type": "recipe",
+        "recipeId": "manual-cappuccino",
+        "source": [
+          21
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-cappuccino-service",
+        "moduleId": "manual-recipes",
+        "title": "Cappuccino: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 180 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Extract espresso; texture milk with more foam than latte; pour promptly."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Velvety foam, integrated coffee taste."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Dry stiff foam; overheating."
+          }
+        ],
+        "source": [
+          21
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-caf-latte",
+        "moduleId": "manual-recipes",
+        "title": "Café Latte",
+        "type": "recipe",
+        "recipeId": "manual-caf-latte",
+        "source": [
+          22
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-caf-latte-service",
+        "moduleId": "manual-recipes",
+        "title": "Café Latte: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 300 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Extract espresso; steam glossy microfoam; pour smoothly."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Silky surface, balanced milk coffee flavor."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Large bubbles; weak coffee balance."
+          }
+        ],
+        "source": [
+          22
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-flat-white",
+        "moduleId": "manual-recipes",
+        "title": "Flat White",
+        "type": "recipe",
+        "recipeId": "manual-flat-white",
+        "source": [
+          23
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-flat-white-service",
+        "moduleId": "manual-recipes",
+        "title": "Flat White: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 180 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Extract espresso; steam fine microfoam; pour with minimal thick foam."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Smooth, coffee forward, glossy."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Cappuccino style thick foam."
+          }
+        ],
+        "source": [
+          23
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-mocha",
+        "moduleId": "manual-recipes",
+        "title": "Mocha",
+        "type": "recipe",
+        "recipeId": "manual-mocha",
+        "source": [
+          24
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-mocha-service",
+        "moduleId": "manual-recipes",
+        "title": "Mocha: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 300 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Mix chocolate sauce with espresso; add steamed milk; serve."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Fully dissolved chocolate, no separation."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Sauce unmixed; too sweet."
+          }
+        ],
+        "source": [
+          24
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-caramel-latte",
+        "moduleId": "manual-recipes",
+        "title": "Caramel Latte",
+        "type": "recipe",
+        "recipeId": "manual-caramel-latte",
+        "source": [
+          25
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-caramel-latte-service",
+        "moduleId": "manual-recipes",
+        "title": "Caramel Latte: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 300 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Mix syrup and espresso; add glossy steamed milk."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Even caramel flavor, silky texture."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Inaccurate syrup; coarse foam."
+          }
+        ],
+        "source": [
+          25
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-spanish-latte",
+        "moduleId": "manual-recipes",
+        "title": "Spanish Latte",
+        "type": "recipe",
+        "recipeId": "manual-spanish-latte",
+        "source": [
+          26
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-spanish-latte-service",
+        "moduleId": "manual-recipes",
+        "title": "Spanish Latte: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 300 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Blend condensed milk with espresso; add steamed milk; stir."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Smooth sweetness, well integrated."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Condensed milk settled at base."
+          }
+        ],
+        "source": [
+          26
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-americano",
+        "moduleId": "manual-recipes",
+        "title": "Iced Americano",
+        "type": "recipe",
+        "recipeId": "manual-iced-americano",
+        "source": [
+          27
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-americano-service",
+        "moduleId": "manual-recipes",
+        "title": "Iced Americano: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 470 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Add water and ice; extract espresso separately; add and serve."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Refreshing, no excessive dilution."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Too little ice; poor strength."
+          }
+        ],
+        "source": [
+          27
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-latte",
+        "moduleId": "manual-recipes",
+        "title": "Iced Latte",
+        "type": "recipe",
+        "recipeId": "manual-iced-latte",
+        "source": [
+          28
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-latte-service",
+        "moduleId": "manual-recipes",
+        "title": "Iced Latte: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 470 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Add milk and ice; pour espresso; stir before serving if needed."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Cold, balanced coffee and milk."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Wrong milk measure; warm service."
+          }
+        ],
+        "source": [
+          28
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-caramel-macchiato",
+        "moduleId": "manual-recipes",
+        "title": "Iced Caramel Macchiato",
+        "type": "recipe",
+        "recipeId": "manual-iced-caramel-macchiato",
+        "source": [
+          29
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-caramel-macchiato-service",
+        "moduleId": "manual-recipes",
+        "title": "Iced Caramel Macchiato: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 470 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Mix vanilla and milk; add ice; layer espresso; finish with caramel."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Distinct layers before stirring, balanced sweetness."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Heavy sauce; incorrect order."
+          }
+        ],
+        "source": [
+          29
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-spanish-latte",
+        "moduleId": "manual-recipes",
+        "title": "Iced Spanish Latte",
+        "type": "recipe",
+        "recipeId": "manual-iced-spanish-latte",
+        "source": [
+          30
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-spanish-latte-service",
+        "moduleId": "manual-recipes",
+        "title": "Iced Spanish Latte: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 470 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Dissolve condensed milk in espresso; combine with milk and ice."
+          },
+          {
+            "label": "Quality standard",
+            "text": "No undissolved condensed milk."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Sweetener stuck to cup bottom."
+          }
+        ],
+        "source": [
+          30
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-mocha",
+        "moduleId": "manual-recipes",
+        "title": "Iced Mocha",
+        "type": "recipe",
+        "recipeId": "manual-iced-mocha",
+        "source": [
+          31
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-mocha-service",
+        "moduleId": "manual-recipes",
+        "title": "Iced Mocha: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 470 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Blend sauce with warm espresso; add cold milk and ice."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Chocolate evenly distributed."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Chocolate clumps."
+          }
+        ],
+        "source": [
+          31
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-vanilla-latte",
+        "moduleId": "manual-recipes",
+        "title": "Iced Vanilla Latte",
+        "type": "recipe",
+        "recipeId": "manual-iced-vanilla-latte",
+        "source": [
+          32
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-vanilla-latte-service",
+        "moduleId": "manual-recipes",
+        "title": "Iced Vanilla Latte: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 470 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Combine syrup and milk; add ice and espresso; stir."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Even sweetness, cold service."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Unmeasured syrup."
+          }
+        ],
+        "source": [
+          32
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-hazelnut-latte",
+        "moduleId": "manual-recipes",
+        "title": "Iced Hazelnut Latte",
+        "type": "recipe",
+        "recipeId": "manual-iced-hazelnut-latte",
+        "source": [
+          33
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-hazelnut-latte-service",
+        "moduleId": "manual-recipes",
+        "title": "Iced Hazelnut Latte: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 470 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Combine syrup and milk; add ice and espresso; stir."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Balanced nutty aroma; allergen label checked."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Failure to check ingredient allergens."
+          }
+        ],
+        "source": [
+          33
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-white-chocolate-mocha",
+        "moduleId": "manual-recipes",
+        "title": "Iced White Chocolate Mocha",
+        "type": "recipe",
+        "recipeId": "manual-iced-white-chocolate-mocha",
+        "source": [
+          34
+        ]
+      },
+      {
+        "id": "manual-recipes-manual-iced-white-chocolate-mocha-service",
+        "moduleId": "manual-recipes",
+        "title": "Iced White Chocolate Mocha: preparation & service",
+        "type": "cards",
+        "lead": "Use a clean 470 ml cup; verify order and hand off promptly.",
+        "facts": [
+          {
+            "label": "Method",
+            "text": "Mix sauce into warm espresso; add milk and ice; stir."
+          },
+          {
+            "label": "Quality standard",
+            "text": "Smooth sauce dispersion, cold finish."
+          },
+          {
+            "label": "Common mistakes",
+            "text": "Sauce not dissolved."
+          }
+        ],
+        "source": [
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "id": "manual-operations",
+    "number": "07",
+    "title": "Café Operations & Service",
+    "description": "Develop opening, closing, sanitation, inventory, service and teamwork routines.",
+    "icon": "sparkles",
+    "image": "image13",
+    "slides": [
+      {
+        "id": "manual-operations-objectives",
+        "moduleId": "manual-operations",
+        "title": "Café Operations & Service",
+        "lead": "Learning objectives from the student training manual.",
+        "type": "cards",
+        "facts": [
+          {
+            "label": "Objective 1",
+            "text": "Perform safe opening and closing routines."
+          },
+          {
+            "label": "Objective 2",
+            "text": "Explain sanitation, storage, and FIFO."
+          },
+          {
+            "label": "Objective 3",
+            "text": "Handle orders and complaints professionally."
+          }
+        ],
+        "source": [
+          35
+        ]
+      },
+      {
+        "id": "manual-operations-01",
+        "moduleId": "manual-operations",
+        "title": "Opening procedures",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Check facility safety, handwashing supplies, water, refrigeration, grinder, machine warm up, ingredients, cleaning status, cash or POS readiness, and shift assignments. Record faults before service."
+          },
+          {
+            "label": "In practice",
+            "text": "Complete a signed opening checklist."
+          }
+        ],
+        "source": [
+          35
+        ]
+      },
+      {
+        "id": "manual-operations-02",
+        "moduleId": "manual-operations",
+        "title": "Closing procedures",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Secure ingredients, clean and sanitize food contact surfaces, perform machine specific cleaning, empty waste, reconcile records, and safely shut down equipment per manufacturer instructions."
+          },
+          {
+            "label": "In practice",
+            "text": "Complete a supervised closing walk through."
+          }
+        ],
+        "source": [
+          35
+        ]
+      },
+      {
+        "id": "manual-operations-03",
+        "moduleId": "manual-operations",
+        "title": "Workstation preparation",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Organize cups, tools, milk, syrups, clean cloths, and labeled ingredients to minimize unnecessary movement and prevent contamination."
+          },
+          {
+            "label": "In practice",
+            "text": "Set up a station in a consistent order."
+          }
+        ],
+        "source": [
+          35
+        ]
+      },
+      {
+        "id": "manual-operations-04",
+        "moduleId": "manual-operations",
+        "title": "Personal hygiene",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Wash hands before work and after contamination risks, use clean clothing, cover cuts appropriately, and follow illness reporting policy."
+          },
+          {
+            "label": "In practice",
+            "text": "Demonstrate handwashing and glove changes."
+          }
+        ],
+        "source": [
+          35
+        ]
+      },
+      {
+        "id": "manual-operations-05",
+        "moduleId": "manual-operations",
+        "title": "Food safety",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Keep ingredients within supplier recommended temperature limits, minimize time outside refrigeration, use potable water and clean ice tools, and follow the café’s food safety plan."
+          },
+          {
+            "label": "In practice",
+            "text": "Check and log refrigerator temperature."
+          }
+        ],
+        "source": [
+          35
+        ]
+      },
+      {
+        "id": "manual-operations-06",
+        "moduleId": "manual-operations",
+        "title": "Equipment sanitation",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Cleaning removes soils; sanitizing reduces microorganisms using approved methods. Follow label instructions for chemical concentration, contact time, and rinsing requirements."
+          },
+          {
+            "label": "In practice",
+            "text": "Distinguish cleaning from sanitizing."
+          }
+        ],
+        "source": [
+          35
+        ]
+      },
+      {
+        "id": "manual-operations-07",
+        "moduleId": "manual-operations",
+        "title": "Ingredient storage",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Label contents, preparation/opening dates, and discard dates according to product and café policy; separate allergens and chemicals from food."
+          },
+          {
+            "label": "In practice",
+            "text": "Correct three intentionally incomplete labels."
+          }
+        ],
+        "source": [
+          35
+        ]
+      },
+      {
+        "id": "manual-operations-08",
+        "moduleId": "manual-operations",
+        "title": "FIFO inventory",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "First in, first out rotates older usable stock forward. Check dates and quality before use; FIFO never overrides expiration or safety requirements."
+          },
+          {
+            "label": "In practice",
+            "text": "Arrange three milk cartons by date."
+          }
+        ],
+        "source": [
+          35,
+          36
+        ]
+      },
+      {
+        "id": "manual-operations-09",
+        "moduleId": "manual-operations",
+        "title": "Cross contamination",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Use dedicated cloths and utensils, wash hands after handling waste or money, separate allergens where possible, and never place dirty tools on clean prep areas."
+          },
+          {
+            "label": "In practice",
+            "text": "Identify contamination risks in a sample workflow."
+          }
+        ],
+        "source": [
+          36
+        ]
+      },
+      {
+        "id": "manual-operations-10",
+        "moduleId": "manual-operations",
+        "title": "Customer greeting",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Greet promptly, speak clearly, listen, and remain respectful. A simple greeting and menu guidance help first time customers feel comfortable."
+          },
+          {
+            "label": "In practice",
+            "text": "Role play a friendly first greeting."
+          }
+        ],
+        "source": [
+          36
+        ]
+      },
+      {
+        "id": "manual-operations-11",
+        "moduleId": "manual-operations",
+        "title": "Order taking",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Confirm beverage, size, hot or iced, sweetness, milk choice, and special requests. Repeat the order and clarify uncertain modifications before payment or production."
+          },
+          {
+            "label": "In practice",
+            "text": "Take a complex mock order accurately."
+          }
+        ],
+        "source": [
+          36
+        ]
+      },
+      {
+        "id": "manual-operations-12",
+        "moduleId": "manual-operations",
+        "title": "Complaints",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Listen without arguing, acknowledge the concern, verify the order, offer shop approved remedies, and involve a supervisor when needed. Record recurring issues."
+          },
+          {
+            "label": "In practice",
+            "text": "Role play a drink remake request."
+          }
+        ],
+        "source": [
+          36
+        ]
+      },
+      {
+        "id": "manual-operations-13",
+        "moduleId": "manual-operations",
+        "title": "Beverage quality control",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Check recipe, appearance, cup cleanliness, drink temperature, taste where appropriate, and handoff labeling. Do not serve drinks that fail safety or quality checks."
+          },
+          {
+            "label": "In practice",
+            "text": "Evaluate a staged drink before handoff."
+          }
+        ],
+        "source": [
+          36
+        ]
+      },
+      {
+        "id": "manual-operations-14",
+        "moduleId": "manual-operations",
+        "title": "Teamwork",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Use clear callouts, communicate wait times, share station responsibilities, and support coworkers during rush periods without bypassing hygiene steps."
+          },
+          {
+            "label": "In practice",
+            "text": "Practice order handoffs during a timed simulation."
+          }
+        ],
+        "source": [
+          36
+        ]
+      },
+      {
+        "id": "manual-operations-15",
+        "moduleId": "manual-operations",
+        "title": "Cleaning schedules",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Assign tasks by opening, during service, closing, weekly, and manufacturer maintenance intervals. Sign completed records and report incomplete work."
+          },
+          {
+            "label": "In practice",
+            "text": "Create a weekly station cleaning roster."
+          }
+        ],
+        "source": [
+          36
+        ]
+      },
+      {
+        "id": "manual-operations-16",
+        "moduleId": "manual-operations",
+        "title": "Waste management",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Segregate waste according to local collection arrangements, avoid overproduction, measure beverage losses, and keep bins covered and away from clean areas."
+          },
+          {
+            "label": "In practice",
+            "text": "Track milk waste for one practice session."
+          }
+        ],
+        "source": [
+          36
+        ]
+      },
+      {
+        "id": "manual-operations-17",
+        "moduleId": "manual-operations",
+        "title": "Workplace conduct",
+        "type": "editorial",
+        "facts": [
+          {
+            "label": "The concept",
+            "text": "Be punctual, courteous, honest, safety conscious, and respectful of privacy. Follow documented workplace rules and escalate hazards immediately."
+          }
+        ],
+        "source": [
+          36
+        ]
+      },
+      {
+        "id": "manual-download",
+        "moduleId": "manual-operations",
+        "title": "Keep your training manual",
+        "type": "manual",
+        "lead": "View or download the full 36-page student manual for independent review.",
+        "source": [
+          36
+        ]
+      }
+    ]
+  }
+]
