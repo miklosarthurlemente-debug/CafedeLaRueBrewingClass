@@ -1,3 +1,3 @@
 @echo off
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\open-offline.ps1"
+start "" "%~dp0offline\Cafe de la Rue - Offline Course.html"
 if errorlevel 1 pause

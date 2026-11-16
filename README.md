@@ -22,13 +22,11 @@ The private launcher opens the landing page at `http://127.0.0.1:4317/#landing`.
 
 A local-first interactive Basic Barista Training Course, rebuilt from the supplied PowerPoint. React, TypeScript, Vite, Tailwind CSS, Lucide and Motion. No account, database, backend or runtime API is needed.
 
-## Private offline use on this computer
+## Private offline use without installation
 
-Double-click **Open Barista Academy.cmd** in the project folder. It opens your default browser at `http://127.0.0.1:4317/` using the already-built local files. Internet is not required. The launcher reuses an existing academy server if it is running and starts it in the background otherwise. It requires Node.js, either installed normally or available from this computer's Codex runtime.
+Double-click Open Barista Academy.cmd, or directly open offline/Cafe de la Rue - Offline Course.html in Chrome, Edge or Brave. No Node.js, local server, package installation, internet connection or initial online visit is required. The single HTML file embeds the complete course, original-color images, fonts, logo and PDF manual. View Manual and Download PDF remain functional. Copy the HTML file to a USB drive or another computer to use it there.
 
-The server binds only to `127.0.0.1`, so it is accessible on this computer, not on your Wi-Fi network or the public internet. The app sends no course content, progress or analytics to an external service. Nothing is published. Browser progress is stored in your local browser profile. Other people using the same computer/profile may access the local files and progress.
-
-Keep the project folder in place. After a computer restart, double-click the launcher again. No development server or dependency installation is needed to use the existing production build. Use the normal browser profile if you want to keep your progress. Closing the browser leaves the small local server running until the computer shuts down; no internet connection is used by the server.
+The existing online student website remains available separately. To regenerate this self-contained file after editing the source, use npm run build:offline on a development machine with the dependencies installed. The generated offline folder is ignored by Git. The older PowerShell server launcher is retained only as an optional developer utility and is no longer called by the main launcher.
 
 ## Run locally
 

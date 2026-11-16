@@ -1,0 +1,12 @@
+import {chromium} from '@playwright/test';
+import assert from 'node:assert/strict';
+import {writeFile} from 'node:fs/promises';
+const url='https://miklosarthurlemente-debug.github.io/CafedeLaRueBrewingClass/';
+const browser=await chromium.launch({executablePath:process.env.BARISTA_CHROMIUM_PATH||'C:\\Users\\slowk\\OneDrive\\Desktop\\New folder\\reconstruction\\node_modules\\.remotion\\chrome-headless-shell\\win64\\chrome-headless-shell-win64\\chrome-headless-shell.exe'});
+const context=await browser.newContext({viewport:{width:1366,height:768}});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+try{
+ const response=await page.goto(url);assert.equal(response.status(),200);await page.getByRole('heading',{name:'EXPLORE THE COFFEE.'}).waitFor();await page.getByRole('img',{name:'Cafe de la Rue logo'}).evaluate(i=>i.decode());await page.screenshot({path:'source/qa/published-landing.png'});
+ await page.getByRole('button',{name:'Start Course',exact:true}).click();await page.locator('.module-card').first().waitFor();assert.equal(await page.locator('.module-card').count(),8);await page.getByRole('button',{name:'Launch Presentation',exact:true}).click();await page.getByRole('heading',{name:'Miklos.'}).waitFor();await page.getByRole('button',{name:'LET’S BEGIN',exact:true}).click();await page.locator('.slide-canvas').waitFor();await page.getByRole('button',{name:'Next',exact:true}).focus();await page.keyboard.press('End');await page.getByRole('button',{name:'Finish',exact:true}).click();await page.getByRole('heading',{name:'Thank You.'}).waitFor();await page.locator('.completion .course-logo').evaluate(i=>i.decode());
+ await page.evaluate(async()=>{await navigator.serviceWorker.ready});await context.setOffline(true);await page.reload();await page.getByRole('heading',{name:'EXPLORE THE COFFEE.'}).waitFor();await page.getByRole('img',{name:'Cafe de la Rue logo'}).evaluate(i=>i.decode());await page.getByRole('button',{name:'Start Course',exact:true}).click();await page.locator('.hero-image-wrap img').evaluate(i=>i.decode());
+ assert.deepEqual(errors,[]);const result={url,status:200,checks:['live landing and logo','8 course modules','Miklos introduction','Thank You logo','offline reload returns to landing','original-color photo loads offline'],errors};await writeFile('source/qa/published-results.json',JSON.stringify(result,null,2));console.log(result);
+}finally{await browser.close()}
